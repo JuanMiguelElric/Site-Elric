@@ -119,3 +119,11 @@ small{
 .Checkbox{
     width: 25px;
 }
+.logopageinicial{
+    float: left;
+    background: transparent;
+}
+.texlink{
+    text-decoration: none;
+    color: white;
+}

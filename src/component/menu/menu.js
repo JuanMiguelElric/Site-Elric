@@ -27,7 +27,13 @@ function Menu() {
                             <br/>
                             <p>Satisfação Dos Clientes</p>
                             <br/>
-                            <p>Entrar</p>
+                            <p>
+                                <Link className="texlink" to="/login">
+                                    Entrar
+
+                                </Link>
+                            
+                            </p>
 
                         </div>
 
@@ -38,7 +44,7 @@ function Menu() {
                 <li className="Afastar" > Seja bem vindo(a)!</li>
                 <li> CONTATO</li>
                 <li>Trabalhos </li>
-                <li><Link to="/login">Entrar</Link></li>
+                <li><Link className="texlink" to="/login">Entrar</Link></li>
 
             </ul>
         </div>

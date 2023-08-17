@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-
+import logoelric from "../../images/logo_elric.png";
 import Menu from "../menu/menu";
 
 
@@ -8,6 +8,9 @@ const PaginaInicial = ()=>{
     return(
         <div>
             <Menu />
+            <div>
+                <img src={logoelric} className="logopageinicial" alt="logoelric" />
+            </div>
             <div className="texto">
                 <h1>PROSPERIDADE  </h1>
                 <h1>INTERSTELAR</h1>
