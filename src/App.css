@@ -1,0 +1,121 @@
+.menu{
+    margin-top: 1px;
+    width: auto;
+    min-height: 30px;
+    
+
+}
+.menuburg {
+    width: 6vmin;
+    margin-right: 10px;
+}
+ul{
+    color: #fff;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.Afastar{
+    padding-right: 32%;
+
+}
+button{
+    width: 50%;
+    background: transparent;
+    border: none;  
+}
+li{
+    margin-right: 1%;
+}
+.texto{
+    width: 57vmax;
+    padding-top: 2%;
+    float: right; 
+    color: #fff;
+    margin-right: 10px;
+
+}
+h1{
+    font-size: 5vmax;
+    text-align: center;
+    color: #fff;
+}
+.submit{
+    margin-left: 35%;
+    color: white;
+    width: 30vmin;
+    height: 50px;
+    border-radius: 25px;
+    border:5px solid #8103f6;
+}
+.foguete{
+    width: 10px;
+    height: 10px;
+
+
+}
+.menu-bar{
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 100vh;
+    background-color: #000000;
+    padding: 20px;
+    z-index: 1000;
+}
+.fundomenu{
+    background-color: #000000; /* Defina a cor de fundo que você deseja para o menu */
+    opacity: 0.9; /* Opacidade baixa (aqui é definido o valor 0.9) */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.botaofechar{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    position: fixed;
+    top: 6;
+    left: 34%;
+}
+.formulario{
+    width: 40vmax;
+    height: auto;
+    background-color:black;
+    border:5px solid #8103f6;
+    border-radius:  40px;
+    padding-left:  3%;
+    padding-right: 8%;
+    padding-bottom: 3%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+
+}
+input{
+    color: black;
+    margin-left:4%;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border:5px solid #8103f6;
+    
+}
+label{
+    margin-left: 4%;
+    color: #fff;
+}
+small{
+    color: #fff;
+    position: absolute;
+    right: 10%;
+}
+.Checkbox{
+    width: 25px;
+}

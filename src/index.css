@@ -1,0 +1,14 @@
+/* Defina a fonte padrão para o corpo do documento */
+body {
+  background-image: url(./images/Meu\ portfólio.png);
+  width: auto;
+  background-repeat: no-repeat;
+  font-family: 'orbitron', sans-serif;
+  margin: 0;
+}
+
+/* Importe a fonte Orbitron usando @font-face */
+@font-face {
+  font-family: 'orbitron';
+  src: url('https://fonts.gstatic.com/s/orbitron/v9/yMJRMIlzdpvBhQQL_Qq7dyS8kvUJjg.ttf') format('truetype');
+}
